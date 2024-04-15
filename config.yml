@@ -1,0 +1,123 @@
+homebrew_installed_packages:
+  - dockutil
+  - fzf
+  - mas
+  - antidote
+  - nvm
+  - k9s
+  - lazydocker
+  - bat
+  - kubectx
+  - kubernetes-cli
+  - kustomize
+  - asciinema
+  - avro-tools
+  - circumflex
+  - fluxcd/tap/flux
+  - hadolint
+  - htop
+  - hudochenkov/sshpass/sshpass
+  - jq
+  - k6
+  - ktr0731/evans/evans
+  - mimirtool
+  - minikube
+  - redis
+  - shellcheck
+  - sops
+  - speedtest-cli
+  - terraform
+  - gnupg
+  - ruby
+
+homebrew_cask_apps:
+  - visual-studio-code
+  - spotify
+  - iterm2
+  - loopback
+  - audio-hijack
+  - datagrip
+  - obsidian
+  - insomnia
+  - asana
+  - slack
+  - zed
+  - zoom
+  - discord
+  - rectangle
+  - audacity
+  # - logitech-g-hub # this one half works, installer needs root
+  - elgato-control-center
+  - elgato-stream-deck
+
+
+dockitems_remove:
+  - Safari
+  - Messages
+  - Mail
+  - Maps
+  - Photos
+  - FaceTime
+  - Contacts
+  - Reminders
+  - Notes
+  - Freeform
+  - TV
+  - Music
+  - News
+  - Keynote
+  - Numbers
+  - Pages
+  - App Store
+
+dockitems_persist:
+  - name: Google Chrome
+    path: "/Applications/Google\ Chrome.app/"
+    pos: 2
+  - name: Spotify
+    path: "/Applications/Spotify.app/"
+    pos: 3
+  - name: Slack
+    path: "/Applications/Slack.app/"
+    pos: 4
+  - name: Discord
+    path: "/Applications/Discord.app/"
+    pos: 5
+  - name: iTerm2
+    path: "/Applications/iTerm.app/"
+    pos: 6
+  - name: Visual Studio Code
+    path: "/Applications/Visual\ Studio\ Code.app/"
+    pos: 7
+  - name: Zed
+    path: "/Applications/zed.app/"
+    pos: 8
+  - name: Obsidian
+    path: "/Applications/Obsidian.app/"
+    pos: 9
+  - name: Insomnia
+    path: "/Applications/Insomnia.app/"
+    pos: 10
+  - name: DataGrip
+    path: "/Applications/DataGrip.app/"
+    pos: 11
+  - name: Asana
+    path: "/Applications/Asana.app/"
+    pos: 12
+  - name: Loopback
+    path: "/Applications/Loopback.app/"
+    pos: 13
+  - name: Audio Hijack
+    path: "/Applications/Audio\ Hijack.app/"
+    pos: 14
+  - name: Calendar
+    path: "/Applications/Calendar.app/"
+    pos: 15
+  - name: System Settings
+    path: "/Applications/System\ Settings.app/"
+    pos: 16
+
+mas_installed_apps:
+  - { id: 937984704, name: "Amphetamine" }
+  - { id: 1251572132, name: "Fresco" }
+  

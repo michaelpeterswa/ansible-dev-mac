@@ -1,0 +1,28 @@
+---
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove: []
+dockitems_persist: []
+
+homebrew_installed_packages:
+  - openssl
+  - wget
+
+homebrew_taps: []
+
+# homebrew_cask_appdir: /Applications
+# homebrew_cask_apps:
+#   - docker
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+
+# mas_uninstalled_apps:
+#   - { id: 408981434, name: "iMovie" }
+#   - { id: 409183694, name: "Keynote" }
+#   - { id: 409201541, name: "Pages" }
+#   - { id: 409203825, name: "Numbers" }
+#   - { id: 682658836, name: "GarageBand" }
+#   - { id: 497799835, name: "Xcode (8.1)"}
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
