@@ -10,4 +10,6 @@ an ansible playbook that supports initializing my new macbook
 - [ ] .zshrc copying/templating
 - [ ] .zsh_plugins.txt copying/templating
 - [ ] Kubernetes Cluster Context Adding
-- [ ] GPG key for GitHub
+- [ ] GPG key for GitHub + .gitconfig
+- [ ] SSH Config
+- [ ] Docker Desktop
