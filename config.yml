@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - terraform
   - gnupg
   - ruby
+  - protobuf
 
 homebrew_cask_apps:
   - visual-studio-code
